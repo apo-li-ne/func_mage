@@ -40,9 +40,8 @@ if __name__ == "__main__":
     print("\nTesting power filter...")
     print(power_filter(mages, 60))
 
-    print("\nTesting spell transfornmer...")
+    print("\nTesting spell transformer...")
     print(" ".join(spell_transformer(["fireball", "heal", "shield"])))
 
     print("\nTesting mage stats...")
     print(mage_stats(mages))
-
